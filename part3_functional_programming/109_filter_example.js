@@ -1,3 +1,6 @@
+/**
+ * .filter() 함수 예제
+ */
 const students = [
   { name: 'kyeongrok', age: 31, math: 85, english: 87 },
   { name: 'jihyun', age: 31, math: 95, english: 97 },

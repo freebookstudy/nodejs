@@ -1,3 +1,7 @@
+/**
+ * 합성함수
+ * 함수를 여러 개를 합쳐서 쓰는 방법
+ */
 const multiple5 = x => x * 5;
 const add10 = x => x + 10;
 

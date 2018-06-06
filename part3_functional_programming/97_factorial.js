@@ -6,7 +6,9 @@
  */
 const factorial = (n) => {
   if (n === 0) return 1;
-  return n * factorial(n - 1);
+  let a = factorial(n-1);
+  console.log(`${n} * ${a} = ${n*a}`);
+  return n * a;
 };
 
 console.log(factorial(4));

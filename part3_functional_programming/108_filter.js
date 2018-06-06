@@ -1,3 +1,7 @@
+/**
+ * filter() 함수 사용하기
+ * 특정 조건을 가진 데이터 또는 object 추출
+ */
 const ages = [11, 12, 13, 16, 21, 31];
 
 const upper16 = ages.filter(age => age > 16);

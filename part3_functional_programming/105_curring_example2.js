@@ -1,3 +1,7 @@
+/**
+ * 커링 curring 예제 2
+ *
+ */
 const fs = require('fs');
 
 const openFileAndPrint = path => fileName => fs.readFile(path + fileName, (err, data) => {
