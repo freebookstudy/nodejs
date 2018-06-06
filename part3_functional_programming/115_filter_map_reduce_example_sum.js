@@ -1,3 +1,6 @@
+/**
+ * .filter, .map(), .reduce() 함수 예제 - 합계구하기
+ */
 const employeeList = [
   { name: 'kyeongrok', age: 31, department: 'development' },
   { name: 'jihyun', age: 31, department: 'design' },

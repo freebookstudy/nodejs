@@ -1,3 +1,6 @@
+/**
+ * .filter, .map(), .reduce() 함수 예제
+ */
 const students = [
   { name: 'kyeongrok', age: 31, score: 85 },
   { name: 'jihyun', age: 31, score: 95 },
