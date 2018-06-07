@@ -1,3 +1,7 @@
+/**
+ * 비동기로 파일 열기 fs.readfile()
+ *
+ */
 const fs = require('fs');
 
 fs.readFile('./message.txt', (err, data) => {
