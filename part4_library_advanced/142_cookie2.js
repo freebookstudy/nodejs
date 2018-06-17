@@ -1,8 +1,13 @@
+/**
+ * 쿠키(Cookie) 추출
+ *
+ */
 const http = require('http');
 
 http.createServer((request, response) => {
   // GET cookie
   if (request.headers.cookie) {
+      console.log(request.headers.cookie);
     const cookie = request.headers.cookie.split(';').map((element) => {
       element = element.split('=');
       return {

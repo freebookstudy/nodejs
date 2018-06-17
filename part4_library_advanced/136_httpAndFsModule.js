@@ -1,3 +1,7 @@
+/**
+ * http 모듈 - response 객체, fs 모듈 활용 1
+ */
+
 const fs = require('fs');
 const http = require('http');
 

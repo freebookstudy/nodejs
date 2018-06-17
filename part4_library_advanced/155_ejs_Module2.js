@@ -1,3 +1,6 @@
+/**
+ * ejs 모듈 2 매개변수 데이터를 ejs 페이지에 전달
+ */
 const ejs = require('ejs');
 const fs = require('fs');
 const http = require('http');

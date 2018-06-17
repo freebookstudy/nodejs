@@ -4,4 +4,5 @@
 const fs = require('fs');
 
 const contents = 'hello\nbye\n안녕';
-fs.writeFile('./message.txt', contents, () => console.log());
+//fs.writeFile('파일명','내용','callback')
+fs.writeFile('./message.txt', contents, () => console.log(contents));

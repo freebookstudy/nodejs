@@ -9,8 +9,8 @@ const fs = require('fs');
 const dirName = `${__dirname}/img`;
 console.log('dirName: ', dirName);
 
-console.log(!fs.existsSync(dirName));
 //dirName에서 지정한 디렉토리가 있는지 확인
+console.log(!fs.existsSync(dirName));
 if (!fs.existsSync(dirName)) {
   //없으면 생성
   fs.mkdirSync(dirName);

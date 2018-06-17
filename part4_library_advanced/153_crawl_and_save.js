@@ -1,3 +1,6 @@
+/**
+ * request 실행 결과 파일로 저장하기
+ */
 const crawler = require('./crawler');
 const cheerio = require('cheerio');
 const fs = require('fs');

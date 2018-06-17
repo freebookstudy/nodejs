@@ -1,3 +1,8 @@
+/**
+ * express 모듈 6 - body parser 미들웨어
+ * body parser 미들웨어를 통해 POST 요청을 처리할 때 사용자가 보낸 데이터를 추출할 수 있음
+ * reqeust 객체에 body 속성이 부여
+ */
 // body parser 미들웨어
 
 // 모듈 불러오기
@@ -13,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // application/json 파싱
 app.use(bodyParser.json());
 
+//정적 폴더 지정
 app.use(express.static(`${__dirname}/login`));
 
 app.use((request, response) => {

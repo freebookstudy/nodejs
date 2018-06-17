@@ -1,3 +1,8 @@
+/**
+ * http 모듈 - request 객체, method 속성 POST
+ * <form method = "post"> 로 요청시 POST 방식
+ * get 속도가 빠름 보안이 POST 에 비해 취약
+ */
 const http = require('http');
 const fs = require('fs');
 

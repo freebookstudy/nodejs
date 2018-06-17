@@ -1,3 +1,12 @@
+/**
+ * http 모듈
+ * server 객체
+ * - http 모듈에서 가장 중요한 객체로 createServer() 메소드를 통해 객체 생성
+ * - 주요 메소드
+ * listen() : 서버 실행
+ * close() : 서버 종료
+ */
+
 // http 모듈 sever 객체
 // 웹 서버 생성과 실행
 const http = require('http');

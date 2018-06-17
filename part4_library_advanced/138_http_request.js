@@ -1,3 +1,11 @@
+/**
+ * http 모듈 - request 객체, url 속성 활용
+ * request 객체의 속성
+ * url : 요청한 URL 정보
+ * headers : 요청 메시지 헤더 정보
+ * method : 클라이언트의 요청 방식
+ * httpVersion : HTTP 프로토콜의 버
+ */
 const fs = require('fs');
 const http = require('http');
 const url = require('url');

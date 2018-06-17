@@ -1,3 +1,10 @@
+/**
+ * pug 모듈 3
+ * pub 페이지에서 사용되는 특수 태그
+ * #{값}: 데이터를 출력할 때 사용
+ * -: Javascript를 입력할 때 사용
+ * = 값: 데이터를 출력할 때 사용
+ */
 const pug = require('pug');
 const fs = require('fs');
 const http = require('http');
