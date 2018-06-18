@@ -1,18 +1,21 @@
+/**
+ * Nodemailer 모듈 3 - 메일 보내기(첨부파일)
+ * attachment 파일에 대한 파일명과 첨부할 파일 경로 지정 하여 첨부파일 전송
+ */
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: '지메일아이디@gmail.com',
-    pass: '비밀번호',
+    user: 'freejava1191@gmail.com',
+    pass: 'vmflfkdlvm!@',
   },
 });
 
 // setup email data with unicode symbols
 const mailOptions = {
-
-  from: '지메일아이디@gmail.com', // sender address
-  to: '지메일아이디@gmail.com', // list of receivers
+  from: 'freejava1191@gmail.com', // sender address
+  to: 'freelife1191.good@gmail.com,freeopen1191@gmail.com', // list of receivers
   subject: 'Hello attachment', // Subject line
   // text: 'Hello world?', // plain text body
 
@@ -24,7 +27,8 @@ const mailOptions = {
   attachments: [
     {
       filename: 'attachment_test.xlsx',
-      path: 'attachment_test.xlsx',
+      path: '',
+      // path: 'attachment_test.xlsx',
     },
   ],
 };

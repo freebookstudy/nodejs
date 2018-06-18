@@ -1,17 +1,21 @@
+/**
+ * Nodemailer 모듈 2 - 메일 보내기(HTML)
+ * text: 주석 후 html 코드 작성
+ */
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: '지메일아이디@gmail.com',
-    pass: '비밀번호'
+      user: 'freejava1191@gmail.com',
+      pass: 'vmflfkdlvm!@',
   },
 });
 
 // setup email data with unicode symbols
 const mailOptions = {
-  from: '지메일아이디@gmail.com', // sender address
-  to: '지메일아이디@gmail.com', // list of receivers
+    from: 'freejava1191@gmail.com', // sender address
+    to: 'freelife1191.good@gmail.com,freeopen1191@gmail.com', // list of receivers
   subject: 'Hello HTML', // Subject line
   // text: 'Hello world?', // plain text body
   // html body
