@@ -1,3 +1,7 @@
+/**
+ * MySQL 7 - 데이터 삭제
+ * DELETE FROM TABLENAME() WHERE 조건
+ */
 // mysql 모듈 사용
 const mysql = require('mysql');
 
@@ -5,7 +9,7 @@ const mysql = require('mysql');
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '패스워드',
+  password: '1879asdf',
   database: 'comicbook',
   port: '3306',
 });

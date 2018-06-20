@@ -1,3 +1,6 @@
+/**
+ * MySQL 2 - 데이터베이스 생성
+ */
 // mysql 모듈 사용
 const mysql = require('mysql');
 
@@ -5,7 +8,7 @@ const mysql = require('mysql');
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '패스워드',
+  password: '1879asdf',
   database: 'comicbook',
   port: '3306',
 });

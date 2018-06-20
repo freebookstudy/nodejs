@@ -1,8 +1,12 @@
+/**
+ * socket.io 2 - 서버
+ * socket.io 모듈은 express 서버에서 웹 소켓 요청을 받아들임
+ */
 const app = require('express')();
 const server = require('http').createServer(app);
 
 app.get('/', (reuquest, response) => {
-  response.sendFile(`${__dirname}/socket.html`);
+  response.sendFile(`${__dirname}/183_socket_io_clien.html`);
 });
 
 const io = require('socket.io')(server);
